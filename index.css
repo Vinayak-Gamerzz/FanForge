@@ -4,26 +4,19 @@
   top: 18px;
   left: 50%;
   transform: translateX(-50%);
-
   width: max-content;
   max-width: calc(100% - 32px);
-
   padding: 12px 20px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 45px;
-
   background: rgba(73, 52, 23, 0.78);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 22px;
-
   z-index: 99999;
-
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
 
 }
@@ -48,7 +41,6 @@
   font-size: 24px;
   font-family: 'Orbitron';
   font-weight: 700;
-
   background:linear-gradient(
   90deg,
   #ff8801,
@@ -75,12 +67,9 @@
 
   text-decoration:none;
   color:#CBD5E1;
-
   font-size:15px;
   font-weight:500;
-
   transition:0.3s;
-
   position:relative;
 
 }
@@ -133,26 +122,145 @@
 .hero-area h4 {
 
     font-size: 30px;
+    margin-bottom: 50px;
 
 }
 
 body {
 
     background: #e05715;
+    text-align: center;
+    align-items: center;
 
 }
 
-.note {
+.hero-area a {
 
-    position: relative;
-    z-index: 3;
+    background: rgb(87, 87, 150);
+    color: #ffecd6;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 0 100px;
 
-    margin-top: 22px;
+}
 
-    font-size: 12px;
+.cards {
 
-    color: rgba(255, 255, 255, 0.45);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-bottom: 50px;
 
-    letter-spacing: 0.5px;
-    
+}
+
+.card {
+
+    width: 270px;
+    min-height: 170px;
+    padding: 25px;
+    background: white;
+    border: 3px solid black;
+    transition: 0.20s ease;
+
+}
+
+.card:hover {
+
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0 black;
+
+}
+
+.card:nth-child(1) {
+
+    background: #94df21;
+
+}
+
+.card:nth-child(2) {
+
+    background: #5d87d9;
+
+}
+
+.card:nth-child(3) {
+
+    background: #ff8050;
+
+}
+
+.main-body {
+
+    margin-top: 90px;
+
+}
+
+.intro-FF h2 {
+
+    font-size: 40px;
+    color: #ffecd6;
+
+}
+
+.intro-FF h3 {
+
+    font-size: 30px;
+    color: #f4c7c3;
+
+}
+
+.card p {
+
+    font-size: 20px;
+
+}
+
+.card h3 {
+
+    color: #ef4d3e;
+
+}
+
+.d3 h2 {
+
+    font-size: 40px;
+    color: #ffecd6;
+    margin-top: -10px;
+
+}
+
+.d3 h3 {
+
+    font-size: 30px;
+    color: #f4c7c3;
+
+}
+
+.d3 {
+
+    margin-top: 100px;
+
+}
+
+.d3 p {
+
+    color: #97baec;
+
+}
+
+#character-viewer {
+    width: 800px;
+    height: 600px;
+
+    max-width: 90vw;
+
+    background: #ff8050;
+
+    border: 3px solid #000;
+    border-radius: 15px;
+
+    overflow: hidden;
 }
