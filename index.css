@@ -264,3 +264,133 @@ body {
 
     overflow: hidden;
 }
+
+.footer {
+
+    background: #482e0c;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 30px 8% 25px;
+    margin-top: 100px;
+
+}
+
+.stuff {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.fb h2 {
+
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.fb p {
+
+    color: #b8b8d4;
+    line-height: 1.6;
+
+}
+
+.f-links {
+
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+
+}
+
+.f-links h3 {
+
+    color: #fff;
+    margin: 0 10px 0 0;
+    font-size: 1.1rem;
+
+}
+
+.f-links a {
+
+    display: inline-block;
+    color: #b8b8d4;
+    text-decoration: none;
+    margin: 0;
+    transition: 0.3s;
+
+}
+
+.f-links a:hover {
+
+    color: #7c8cff;
+    transform: translateY(-2px);
+
+}
+
+.fbi {
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    color: #8d8da5;
+    font-size: 0.95rem;
+
+}
+
+.fbi p:last-child {
+
+    margin-top: 8px;
+    color: #7c8cff;
+
+}
+
+.build-it a {
+
+    background: rgb(87, 87, 150) !important;
+    color: #ffecd6 !important;
+    padding: 20px 30px !important;
+    text-decoration: none !important;
+    border-radius: 20px !important;
+    margin: 0 100px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+
+}
+
+h2 {
+
+    margin-top: 20px !important;
+
+}
+
+.how a {
+
+    background: rgb(87, 87, 150) !important;
+    color: #ffecd6 !important;
+    padding: 20px 30px !important;
+    text-decoration: none !important;
+    border-radius: 20px !important;
+    margin: 0 100px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+
+}
+
+.final a {
+
+    background: rgb(87, 87, 150) !important;
+    color: #ffecd6 !important;
+    padding: 20px 30px !important;
+    text-decoration: none !important;
+    border-radius: 20px !important;
+    margin: 0 100px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+
+}
