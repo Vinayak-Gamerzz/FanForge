@@ -6,7 +6,7 @@
   transform: translateX(-50%);
   width: max-content;
   max-width: calc(100% - 32px);
-  padding: 12px 20px;
+  padding: 10px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
