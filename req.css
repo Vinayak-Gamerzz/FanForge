@@ -102,6 +102,7 @@
 .hero-area {
 
     text-align: center;
+    margin-top: 120px;
 
 }
 
@@ -191,14 +192,14 @@ body {
 
 }
 
-.intro-FF h2 {
+.reqs h2 {
 
     font-size: 40px;
     color: #ffecd6;
 
 }
 
-.intro-FF h3 {
+.reqs h3 {
 
     font-size: 30px;
     color: #f4c7c3;
@@ -217,7 +218,7 @@ body {
 
 }
 
-.d3 h2 {
+.imp h2 {
 
     font-size: 40px;
     color: #ffecd6;
@@ -225,37 +226,23 @@ body {
 
 }
 
-.d3 h3 {
+.imp h3 {
 
     font-size: 30px;
     color: #f4c7c3;
 
 }
 
-.d3 {
+.imp {
 
     margin-top: 100px;
 
 }
 
-.d3 p {
+.imp p {
 
     color: #97baec;
 
-}
-
-#character-viewer {
-    width: 800px;
-    height: 600px;
-
-    max-width: 90vw;
-
-    background: #ff8050;
-
-    border: 3px solid #000;
-    border-radius: 15px;
-
-    overflow: hidden;
 }
 
 .footer {
@@ -411,4 +398,54 @@ body {
   height:45px;
   background:white;
 
+}
+
+.minimum-req h2 {
+
+    font-size: 40px;
+    color: #ffecd6;
+    margin-top: -10px;
+
+}
+
+li {
+
+    font-size: 20px;
+    margin: 5px;
+    color:#f2b7a1
+
+}
+
+.final h2 {
+
+    font-size: 40px;
+    color: #ffecd6;
+
+}
+
+.final h4 {
+
+    font-size: 25px;
+    color:#fbb273;
+
+}
+
+.build-it h2 {
+
+    font-size: 40px;
+    color: #ffecd6;
+
+}
+
+.build-it h4 {
+
+    font-size: 25px;
+    color:#fbb273;
+
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
 }
