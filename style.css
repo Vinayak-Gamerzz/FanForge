@@ -194,14 +194,14 @@ body {
 .intro-FF h2 {
 
     font-size: 40px;
-    color: #ffecd6;
+    color: beige;
 
 }
 
 .intro-FF h3 {
 
     font-size: 30px;
-    color: hwb(65 37% 24%);
+    color: #67e8f9;
 
 }
 
@@ -347,7 +347,7 @@ body {
 .btn {
 
     display: inline-block;
-    background: rgb(87, 87, 150);
+    background: #57965d;
     color: #ffecd6;
     padding: 14px 24px;
     text-decoration: none;
