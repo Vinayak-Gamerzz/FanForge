@@ -56,13 +56,31 @@
 
             </div>
 
-            <div class="faq-category">
+            <div class="faq-categories">
 
-                <button class="faq-category-btn">ABOUT</button>
+                <button class="faq-btn active" onclick="showCategory('about')">
+                    ABOUT
+                </button>
+
+                <button class="faq-btn" onclick="showCategory('ship')">
+                    SHIP
+                </button>
+
+                <button class="faq-btn" onclick="showCategory('submit')">
+                    SUBMIT
+                </button>
+
+                <button class="faq-btn" onclick="showCategory('rewards')">
+                    REWARDS
+                </button>
+
+                <button class="faq-btn" onclick="showCategory('confused')">
+                    CONFUSED?
+                </button>
 
             </div>
 
-            <section>
+            <section class="faq-section" id="about">
 
                 <div class="faq">
 
@@ -90,8 +108,6 @@
                         </p>
 
                     </div>
-
-
 
                 </div>
 
@@ -99,7 +115,7 @@
 
                     <div class="question">
 
-                        <h3>What is FanForge ?</h3>
+                        <h3>Who can Participate ?</h3>
                         
                         <svg width="15" height="18" viewBox="0 0 42 25">
                             <path 
@@ -116,13 +132,11 @@
 
                         <p>
 
-                            It is a YSWS where you turn a fandom you love into a creative web project of your own
+                            Anyone who is in the age group 13-18 can participate.
 
                         </p>
 
                     </div>
-
-                    
 
                 </div>
 
@@ -130,7 +144,7 @@
 
                     <div class="question">
 
-                        <h3>What is FanForge ?</h3>
+                        <h3>What counts as a fandom?</h3>
                         
                         <svg width="15" height="18" viewBox="0 0 42 25">
                             <path 
@@ -147,17 +161,645 @@
 
                         <p>
 
-                            It is a YSWS where you turn a fandom you love into a creative web project of your own
+                            Pretty much anything you genuinely enjoy games, movies, shows, books, anime, comics, characters, or even a fictional world you made yourself.
 
                         </p>
 
                     </div>
 
-                    
+                </div>
+
+                <div class="faq">
+
+                    <div class="question">
+
+                        <h3>What is a FanForge “Ship”?</h3>
+                        
+                        <svg width="15" height="18" viewBox="0 0 42 25">
+                            <path 
+                            d="M3 3L21 21L39 3" 
+                            stroke="white" 
+                            stroke-width="7" 
+                            stroke-linecap="round"
+                            />
+                        </svg>
+
+                    </div>
+
+                    <div class="answer">
+
+                        <p>
+
+                            Your Ship is the project you build and submit to FanForge. Think of it as your finished creation that you're sending into the Forge.
+
+                        </p>
+
+                    </div>
 
                 </div>
 
             </section>
+
+            <section class="faq-section" id="ship">
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>What can I build?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                You can build a website around a fandom you genuinely
+                                enjoy. It could be a character page, gallery, collection,
+                                interactive experience, or something completely your own.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>Do I need to use Three.js ?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Nope! Three.js and 3D characters are completely optional.
+                                They're one possible way to make your project interactive, not a requirement.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>Do I need to use JavaScript ?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Not necessarily. You can build your project with HTML and CSS,
+                                 and use JavaScript when your idea needs it.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>Can I use existing assets ?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Yes, as long as you're allowed to use them. 
+                                Check the license for anything you use and provide credit when required.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>How big does my project need to be ?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                There isn't a required number of pages. Focus on making something 
+                                complete and enjoyable rather than making the biggest website possible.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="faq-section" id="submit">
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>How do I submit my project?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Once your Ship is ready, submit it through the official
+                                FanForge submission form with all the required project details.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>What should I check before submitting?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Make sure your website works, your links are working,
+                                your required features are included, and your project
+                                follows the FanForge requirements.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>Can I submit an unfinished project?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Your project should be finished enough for someone else
+                                to explore and use. Test everything before submitting.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>What happens after I submit?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Your project will be reviewed against the FanForge
+                                requirements. If it meets the criteria, it can be
+                                approved for the YSWS reward.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>Can I submit more than once?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Follow the submission limits and instructions provided
+                                by FanForge before submitting another Ship.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="faq-section" id="confused">
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>I don't know what to build. Where do I start?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Start with a fandom you already know and love. Pick a
+                                character, world, story, or idea and ask yourself:
+                                "What would I want to explore?"
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>I'm new to coding. Can I still participate?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Absolutely. You don't need to know everything before
+                                starting. Learn as you build, experiment, and keep
+                                improving your Ship.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>My idea doesn't fit perfectly. Can I still build it?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                If your idea is based around a fandom and follows the
+                                FanForge requirements, go for it. There's no single
+                                "correct" type of Ship.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>What if I get stuck while building?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Break the problem into smaller pieces, look through
+                                documentation or examples, and experiment. You can
+                                also ask the community for help.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>Where can I find the important requirements?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Check the Requirements and Rules pages before submitting.
+                                They'll give you the details you need to make sure your
+                                Ship is eligible.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="faq-section" id="rewards">
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>What rewards can I earn?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                FanForge rewards are based on the Ship you build and
+                                whether it meets the requirements. Check the Requirements
+                                page for the current reward criteria.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>Does every Ship get a reward?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                A Ship needs to meet the FanForge requirements before
+                                it can qualify for a reward. Submitting a project alone
+                                does not automatically guarantee one.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>How do I qualify for a reward?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Build a genuine fandom-based project, follow the rules,
+                                complete the required features, and submit your Ship
+                                correctly for review.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>What if my Ship doesn't meet the requirements?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                If your Ship doesn't meet the requirements, it may not
+                                qualify for a reward. Make sure to check the requirements
+                                before submitting.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq">
+
+                        <div class="question">
+
+                            <h3>When will I receive my reward?</h3>
+
+                            <svg width="15" height="18" viewBox="0 0 42 25">
+                                <path 
+                                    d="M3 3L21 21L39 3" 
+                                    stroke="white" 
+                                    stroke-width="7" 
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p>
+                                Rewards are processed after your Ship has been reviewed
+                                and approved. Any specific delivery details will be
+                                provided with the reward information.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </section>
 
         </div>
 
