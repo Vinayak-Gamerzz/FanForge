@@ -113,7 +113,7 @@ hr {
 
     width: 70%;
     border: none;
-    border-top: 3px solid #482e0c;
+    border-top: 3px solid rgb(233, 233, 118);
     margin: 60px auto;
     
 }
@@ -133,7 +133,24 @@ h2 {
 
 .tag {
 
-    font-size: 20px;
-    
+    font-size: 25px;
+
+}
+
+h4 {
+
+  font-size: 22px;
+
+}
+
+h3 {
+
+  font-size: 28px;
+
+}
+
+p {
+
+  font-size: 21px;
 
 }
